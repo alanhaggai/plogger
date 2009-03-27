@@ -1,0 +1,496 @@
+html
+{
+    padding: 15px;
+    border-bottom: 10px solid #336699;
+    border-top: 10px solid #336699;
+}
+
+html, body, p, form, table, td, tr
+{
+    font-family: "Lucida Sans Unicode", "Lucida Sans", "Georgia", "Trebuchet MS", "Verdana", sans-serif;
+    font-size: 10pt
+}
+
+#theme-table td {
+	padding: 15px;
+}
+
+#theme-table tr.header td {
+	padding: 8px;
+}
+
+
+.option-table td {
+	padding: 6px;
+	text-align: right;
+	width: 300px;
+}
+
+tr.alt td {
+	background: #fafafa;
+	border-bottom: 1px solid #efefef;
+}
+
+tr.activated td {
+	background: #BEDEBE;
+	border-bottom: 1px solid #519E51;
+}
+
+input.submit
+{
+	border: 3px double #999999;
+	border-top-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	background-color: #FFFFFF;
+	background-image: url('../graphics/button-bg.gif');
+	background-repeat: repeat-x;
+	color: #333333;
+	font-size: 90%;
+	font-weight: normal;
+	padding: 0.25em;
+	margin-left: 0;
+}
+
+h1
+{
+    font-family: "Verdana", "Lucida Sans", "Lucida Grande", "Trebuchet MS", sans-serif;
+    font-size: 1.4em;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color:     #264B71;
+}
+
+h2
+{
+    font-family: "Verdana", "Lucida Sans", "Lucida Grande", "Trebuchet MS", sans-serif;
+    font-size: 1.0em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+
+a:link, a:active
+{
+    color:           maroon;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color:           maroon;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:           navy;
+    text-decoration: underline;
+}
+
+a:focus
+{
+    outline: none;
+
+    -moz-outline:none;
+}
+
+.actions
+{
+    background-image: url('../graphics/alert.gif');
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+    margin-bottom:    15px;
+    margin-right:	  15px;	
+    border-top:			  2px solid #BBBB00;
+	border-bottom:			  2px solid #BBBB00;
+    padding:          8px;
+    background-color: #FFFFE0;
+    padding-left:     28px;
+    clear: both;
+}
+
+.errors
+{
+    background-image: url('../graphics/x.gif');
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+    margin-bottom:    15px;
+    margin-right:	  15px;
+    border:		      1px solid maroon;
+    padding:          8px;
+    background-color: #FFCCCC;
+    padding-left:     28px;
+    clear: both;
+}
+
+.edit
+{
+    background-image:  url('../graphics/edit.gif');
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+    margin-bottom:     15px;
+    padding:           8px;
+    padding-left:      28px;
+    margin:            15px;
+    margin-left:	   0;
+    border: 		   2px solid #CCCC66; 
+    background-color:  #FFFFE0;	
+    width: 			   auto;
+    clear: both;
+}
+
+.edit img
+{
+
+	border: 1px solid #000;
+	padding: 3px;
+	background-color: #fff;
+
+}
+
+img
+{
+    border:  0;
+    display: inline;
+}
+
+
+
+tr.color-1
+{
+    background-color: #ccc
+}
+
+tr.color-2
+{
+    background-color: #efefef;
+}
+
+tr.header
+{
+    color:            #FFF;
+    background-color: #264E75;
+    font-weight:      bold;
+}
+
+tr.header td {
+	padding: 6px;
+}
+
+tr.breadcrumb
+{
+    background-color: #FFFFE0;
+    height: 16px;
+    vertical-align: middle;
+}
+
+label
+{
+    padding: 8px;
+}
+
+input, select, textarea
+{
+    margin: 5px;
+    font-family: "Lucida Sans Unicode", "Lucida Sans", "Georgia", "Trebuchet MS", "Verdana", sans-serif;
+    font-size: 10pt;
+}
+
+img
+{
+    padding: 5px
+}
+
+#login
+{
+    background-image: url('../graphics/login.gif');
+    background-repeat: no-repeat;
+    width: 382px;
+    height: 327px;
+    padding: 187px 15px 10px 15px;
+    margin: auto;
+}
+
+#login-page
+{
+    background: #336699;
+    text-align: center;
+    margin-top: 100px;
+}
+
+a.folder
+{
+    background-image:  url("../graphics/folder_open.gif");
+    background-repeat: no-repeat;
+    background-position: left 1px;
+    padding-left:      20px;
+}
+
+.box-1
+{
+    margin: 15px;
+    border: 1px solid #264B71;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #C4DADB;
+    padding-top: 0;
+    margin-top: 5px;
+    width:  470px;
+    margin-left: 0;
+}
+
+.box-2
+{
+    margin: 15px;
+    border: 1px solid #CCCC66;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #FFFFE0;
+    padding-top: 0;
+    margin-top: 5px;
+    width:  470px;
+    margin-left: 0;
+}
+
+.box-3
+{
+    margin: 15px;
+    border: 1px solid #488F62;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 18px;
+    margin-bottom: 10px;
+    background-color: #BEDEBE;
+    padding-top: 0;
+    margin-top: 5px;
+    width:  470px;
+    margin-left: 0;
+}
+
+.add {
+	background-image: url(../graphics/new_file.gif); 
+	background-repeat: no-repeat; 
+	background-position: left center;  
+	padding-left: 20px;
+	margin-left: -12px;
+	text-decoration: underline; 
+}
+
+.breadcrumb-header {
+	height: 16px;
+   	vertical-align: middle;
+	background-color: #FFFFCC;
+	padding: 3px;
+}
+
+.box-heading {
+	font-family: "Georgia", "Lucida Sans", "Verdana", serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #333;
+	margin:0;
+	padding:0;
+	vertical-align: middle;
+	position: relative;
+	top: 10px;
+}
+
+.thumbselect {
+  height: 80px;
+  padding-left: 90px;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.thumboption {
+
+  padding-left: 90px;
+  height: 40px;
+  margin-bottom: 2px;
+  background-position: center left;
+
+}
+
+.highlight {
+	padding: 8px;
+	background: #FFFFE0;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	width: 100%;
+}
+
+.highlight-row {
+	background: #FFFFE0;
+}
+
+#plogger-version {
+	float: right;
+}
+
+/* set the image to use and establish the lower-right position */
+.cssbox, .cssbox_body, .cssbox_head, .cssbox_head h2 {
+    background: transparent url(../graphics/plogger-box-add.png) no-repeat bottom right;
+    margin: 0;
+    padding: 0; 
+}
+
+.cssbox label, .cssbox-green label {
+    padding:0;
+	margin:0;
+    font-weight:bold;
+	display:inline;
+}
+
+.cssbox-green, .cssbox_body-green, .cssbox_head-green, .cssbox_head-green h2 {
+    background: transparent url(../graphics/plogger-box-add-green.png) no-repeat bottom right;
+    margin: 0;
+    padding: 0; 
+}
+
+.cssbox-green {
+	width: 320px !important;   /* intended total box width - padding-right(next) */
+    width: 300px;              /* IE Win = width - padding */
+    padding-right: 15px;       /* the gap on the right edge of the image (not content padding) */
+    margin: 2px 0 20px 0;         /* use to position the box */
+}
+
+.cssbox-green em {
+	text-decoration: underline;
+	font-style: normal;
+}
+
+.cssbox {
+    width: 420px !important;   /* intended total box width - padding-right(next) */
+    width: 405px;              /* IE Win = width - padding */
+    padding-right: 15px;       /* the gap on the right edge of the image (not content padding) */
+    margin: 2px 0 20px 0;         /* use to position the box */
+}
+
+/* set the top-right image */
+.cssbox_head, .cssbox_head-green {
+    background-position: top right;
+    margin-right: -15px;       /* pull the right image over on top of border */
+    padding-right: 40px;       /* right-image-gap + right-inside padding */
+}
+
+/* set the top-left image */
+.cssbox_head h2, .cssbox_head-green h2 {
+    background-position: top left;
+    margin: 0;                 /* reset */
+    border: 0;                 /* reset */
+    padding: 7px 0 15px 20px; /* padding-left = image gap + interior padding ... no padding-right */
+    height: auto !important; 
+    height: 1%;                /* IE Holly Hack */
+}
+
+/* set the lower-left corner image */
+.cssbox_body, .cssbox_body-green {
+    background-position: bottom left;
+    margin-right: 25px;        /* interior-padding right */
+    padding: 15px 0 15px 20px; /* mirror .cssbox_head right/left */
+}
+
+
+/* Misc Text formatting */
+.cssbox_head h2, .cssbox_head-green h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;      /* this is tricky if box width is in ems */
+    text-align: center; 
+    text-shadow: rgb(0,0,0) 0px 2px 5px; /* Safari-only, but I'm doing it just 'cause I can */
+    text-decoration: none;
+}
+.cssbox_body p, .cssbox_body-green p {
+    margin: 0 0 20px;
+}
+.cssbox_body a, .css_body a:hover {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    text-decoration: underline;
+}
+
+#contentList {
+}
+
+#contentList #breadcrumb_links {
+	font-size:1.1em;
+	padding: 5px 3px 5px 0px;
+}
+
+#contentList #pagination {
+	font-size:1.3em;
+	padding: 5px 3px 5px 0px;
+	font-weight:bold;
+}
+
+#uploadForm label {
+    display:block;
+	white-space:nowrap;
+}
+
+#options_section label {
+   font-weight:bold;
+}
+
+label em {
+   font-style:normal;
+   text-decoration:underline;
+}
+
+.table-header-middle {
+	background: url('../graphics/table-middle.gif') repeat-x top left;
+}
+
+.table-header-left {
+	background: url('../graphics/table-top-left.gif') no-repeat top left;
+}
+
+.table-header-right {
+	background: url('../graphics/table-top-right.gif') no-repeat top right;
+}
+
+a#show-collection, a#show-album {
+	padding-left: 20px;
+	background: #ffffcc url('../graphics/new_file.gif') no-repeat left;
+	font-size: 1.1em;
+}
+
+a#show-collection:hover, a#show-album:hover { 
+	text-decoration: none; 
+	color: white; 
+	background: #99CC99 url('../graphics/new_file.gif') no-repeat left;
+}
+
+
+.editable{
+     color: #000;
+     background: #fff url(../graphics/diag-bg.gif) repeat top left;
+	 padding:2px;
+	 border:1px solid #efefef;
+	 display: block;
+}
+
+
+p { 
+	padding: 3px;
+}
+
+.img-shadow {
+  float:left;
+  background: url(../graphics/shadowAlpha.png) no-repeat bottom right !important;
+  background: url(../graphics/shadow.gif) no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+}
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+}

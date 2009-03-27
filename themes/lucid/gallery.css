@@ -1,0 +1,475 @@
+#download-selected {
+	float: right;
+}
+
+#slideshow_link {
+	clear: both;
+	float: left;
+	display: inline;
+	width: 120px;
+}
+
+#breadcrumb_links
+{
+	margin-bottom:5px;
+	padding:0;
+}
+
+#breadcrumbs
+{
+	float:left;
+	width:100%;
+	font-size:1.1em;
+	margin:10px 0 0;
+	padding:5px;
+}
+
+#download_selected
+{
+	float:right;
+	text-align:right;
+}
+
+#exif_data
+{
+	text-align:left;
+	width:50%;
+	padding:20px;
+}
+
+#exif_toggle
+{
+	margin:0;
+	padding:0;
+}
+
+#gallery-name
+{
+	font-size:2em;
+	font-weight:700;
+	float:left;
+	color:#555;
+	margin:0;
+	padding:0;
+}
+
+#header
+{
+	width:100%;
+}
+
+#jump-search-container
+{
+	white-space:nowrap;
+	float:right;
+}
+
+#link-back
+{
+	font-size:90%;
+	clear:both;
+	display:block;
+	width:100%;
+	text-align:center;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#link-back a:hover {
+ background: #ffffcc;
+}
+
+#main_container
+{
+	clear:both;
+	width:100%;
+}
+
+#nav-link-img-next a
+{
+	float:right;
+	border:1px solid #fff;
+	margin-top:5px;
+	padding:5px 15px;
+}
+
+#nav-link-img-prev a
+{
+	float:left;
+	border:1px solid #fff;
+	margin-top:5px;
+	padding:5px 15px;
+}
+
+#nav-link-img-prev a:hover,#nav-link-img-next a:hover
+{
+	background:#efefef;
+	border:1px solid #bbb;
+	margin-top:5px;
+}
+
+#next-link-container
+{
+	width:50%;
+	text-align:right;
+}
+
+#no-pictures-msg
+{
+	text-align:center;
+	padding:15px 0;
+}
+
+#overlay
+{
+	position:absolute;
+	visibility:hidden;
+	background-color:#38c;
+	font-family:"Georgia","Verdana",serif;
+	font-weight:700;
+	font-size:14px;
+	text-align:center;
+	width:18px;
+	color:#fff;
+	padding:4px;
+}
+
+#pagination
+{
+	clear:both;
+	width:100%;
+	font-size: 1.2em;
+	padding-bottom: 3px;
+}
+
+#footer {
+	clear: both;
+	height: 40px;
+	border-top:1px solid #efefef;
+	padding-top: 15px;
+}
+
+#picture-holder
+{
+	text-align:center;
+	clear:both;
+}
+
+#picture-holder a img
+{
+	border:1px solid #789;
+	background:#efefef;
+	margin:4px;
+	padding:3px;
+}
+
+#picture-holder a:hover
+{
+	white-space:normal;
+}
+
+#picture_caption
+{
+	font-size:1.1em;
+	font-weight:400;
+	text-transform:none;
+	letter-spacing:1px;
+	text-align:center;
+	border-bottom:1px solid #efefef;
+}
+
+#picture_description,#exif-toggle-container
+{
+	width:100%;
+	text-align:center;
+}
+
+#prev-link-container
+{
+	width:50%;
+	text-align:left;
+}
+
+#rss-image
+{
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+#search_box
+{
+	margin-left:2px;
+	float:right;
+}
+
+#sortby-container form
+{
+	float:left;
+	padding-right:8px;
+}
+
+#sortby-container,#rss-tag-container
+{
+	float:right;
+	white-space:nowrap;
+	padding-left:8px;
+}
+
+#thumbnail_container
+{
+	clear:both;
+	width:100%;
+	padding-top:10px;
+}
+
+#wrapper
+{
+	font-family:"Lucida Sans",Verdana,"Trebuchet MS",Geneva,Arial,Helvetica,SunSans-Regular,sans-serif;
+	font-size:76%;
+	width:750px;
+	text-align:left;
+	border:4px solid #8E9687;
+	background:#fff;
+	margin:0 auto;
+	padding:25px;
+}
+
+* html #centering
+{
+	text-align:center;
+}
+
+* html .slides li
+{
+	height:1px;
+}
+
+* html .tag
+{
+	word-wrap:break-word;
+	margin:0;
+}
+
+.collection
+{
+	background: transparent url("images/grey-grad-bg.gif") 0 0 repeat-x;
+	clear:both;
+	border-top:1px solid #efefef;
+	padding-bottom:10px;
+	padding-top:10px;
+	float:left;
+	width:100%;
+}
+
+.collection img
+{
+	display:inline;
+	background:#f0f0f0;
+	border:1px solid #ccc;
+	float:left;
+	margin-right:15px;
+	padding:3px;
+}
+
+.collection p {
+	line-height: 1.5em;
+}
+
+.collection img:hover
+{
+	background:#A0B7C9;
+}
+
+.comment,.comment_alt
+{
+	border-top:1px solid #CDCDCD;
+	background-color:#e2e2e2;
+	list-style:none inside;
+	margin:0;
+	padding:15px;
+}
+
+.comment_alt
+{
+	background-color:#fff;
+}
+
+.comments cite
+{
+	color:#000;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-size:75%;
+	background:url('../../../graphics/comment.gif') no-repeat 0 3px;
+	margin-top:8px;
+	height:28px;
+	padding:5px 5px 5px 23px;
+}
+
+.comments p
+{
+	margin:0;
+	padding:0 0 15px;
+}
+
+.comments-closed
+{
+	color:#996;
+	text-align:center;
+}
+
+.date
+{
+	font-size:1.4em;
+	text-align:center;
+	color:#A0B7C9;
+}
+
+.errors
+{
+	width:500px;
+	background-image:url('../../../graphics/x.gif');
+	background-repeat:no-repeat;
+	background-position:5px 8px;
+	margin-bottom:15px;
+	border-bottom:1px solid maroon;
+	border-top:1px solid maroon;
+	border-left:1px solid maroon;
+	border-right:1px solid maroon;
+	background-color:#FCC;
+	padding:8px 8px 8px 28px;
+}
+
+.meta-header
+{
+	font-size:90%;
+	color:#aaa;
+	margin:0;
+	padding:0;
+}
+
+.page_link
+{
+	padding-left:1px;
+	padding-right:1px;
+	text-decoration:none;
+}
+
+.photos
+{
+	margin:3px;
+	padding:5px;
+}
+
+.print
+{
+	background-image:url(../../../graphics/printer.gif);
+	background-repeat:no-repeat;
+	background-position:left middle;
+	padding-left:20px;
+	text-align:right;
+	float:right;
+}
+
+.tag
+{
+	width:110px;
+	height:3em;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+a:link, a:visited
+{
+	color:#8E9687;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:#A0B7C9;
+}
+
+body
+{
+	background:#efefef;
+}
+
+div.large-thumb-toolbar
+{
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:5px;
+}
+
+h2
+{
+	color:#8E9687;
+	font-size:1.4em;
+	font-weight:700;
+	margin:0;
+	padding:0;
+}
+
+img
+{
+	border:0;
+}
+
+input,select,#jump-search-container select,#jump-search-container input,#jump-search-container form
+{
+	display:inline;
+}
+
+input.submit
+{
+	border:3px double #999;
+	border-top-color:#CCC;
+	border-left-color:#CCC;
+	background-color:#FFF;
+	background-image:url('../../../graphics/button-bg.gif');
+	background-repeat:repeat-x;
+	color:#333;
+	font-size:76%;
+	font-family:Verdana,Helvetica,Arial,sans-serif;
+}
+
+ul.slides
+{
+	list-style:none;
+	line-height:1.4em;
+	margin:15px 0 0;
+	padding:0;
+}
+
+ul.slides li
+{
+	position:relative;
+	float:left;
+	display:inline;
+	text-align:center;
+	margin:5px;
+	padding:10px;
+}
+
+ul.slides li a
+{
+	display:block;
+	border:1px solid #789;
+}
+
+ul.slides li a img
+{
+	text-align:center;
+	background:#f0f0f0;
+	margin:1px;
+	padding:3px;
+}
+
+ul.slides li a:hover
+{
+	border:1px solid #38c;
+	background:#A0B7C9;
+}
